@@ -1,0 +1,12 @@
+[AppStream]
+name='AppStream'
+description='ISO REPO FOR APPSTREAM'
+baseurl=file:///dvd/AppStream/
+gpgcheck=0
+
+[BaseOs]
+name='BaseOS'
+description='ISO REPO FOR BASEOS'
+baseurl=file:///dvd/BaseOS/
+gpgcheck=0
+
