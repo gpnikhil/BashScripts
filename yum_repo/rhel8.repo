@@ -4,7 +4,7 @@ description='ISO REPO FOR APPSTREAM'
 baseurl=file:///dvd/AppStream/
 gpgcheck=0
 
-[BaseOs]
+[BaseOS]
 name='BaseOS'
 description='ISO REPO FOR BASEOS'
 baseurl=file:///dvd/BaseOS/
