@@ -9,6 +9,7 @@ cd /root/Downloads/
 ```bash
 git clone https://github.com/gpnikhil/BashScripts.git
 ```
+---
 ## Bash Script to configure yum and correct the screen resolution in a Virtual Machine
 - Move to the yum_repo directory 
 - Make the setup.sh file executable, so that we can run the file
@@ -19,4 +20,17 @@ chmod +x setup.sh
 ```bash
 ./setup.sh
 ```
-### Our configuration is done now
+### Our YUM configuration is done now
+---
+## Bash Script to configure Ansible
+- Move to the ansible directory
+- Make the ansiblecfg.sh file executable, so that we can run the file
+```bash
+chmod +x ansiblecfg.sh
+```
+- Run the ansiblecfg.sh to start the configuration
+```bash
+./ansiblecfg.sh
+```
+### Our Ansible configuration is done now
+---
