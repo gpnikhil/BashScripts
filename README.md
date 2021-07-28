@@ -20,7 +20,7 @@ chmod +x setup.sh
 ```bash
 ./setup.sh
 ```
-### Our YUM configuration is done now
+#### Our YUM configuration is done now
 ---
 ## Bash Script to configure Ansible
 - Move to the ansible directory
@@ -32,5 +32,5 @@ chmod +x ansiblecfg.sh
 ```bash
 ./ansiblecfg.sh
 ```
-### Our Ansible configuration is done now
+#### Our Ansible configuration is done now
 ---
