@@ -34,3 +34,14 @@ chmod +x ansiblecfg.sh
 ```
 #### Our Ansible configuration is done now
 ---
+## Bash Script to configure Docker
+- Move to the docker directory
+- Make the dockercfg.sh file executable, so that we can run the file
+```bash
+chmod +x ansiblecfg.sh
+```
+- Run the dockercfg.sh to start the configuration
+```bash
+./ansiblecfg.sh
+```
+#### Our Docker configuration is done now
