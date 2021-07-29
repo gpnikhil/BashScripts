@@ -4,7 +4,7 @@ pip3 install ansible
 dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
 yum install sshpass -y
 
-touch ip.txt
+touch /root/ip.txt
 
 mkdir /etc/ansible
 touch /etc/ansible/ansible.cfg
