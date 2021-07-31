@@ -45,3 +45,15 @@ chmod +x ansiblecfg.sh
 ./ansiblecfg.sh
 ```
 #### Our Docker configuration is done now
+---
+## Bash Script to configure Jenkins
+- Move to the Jenkins directory
+- Make the jenkinscfg.sh file executable, so that we can run the file
+```bash
+chmod +x jenkinscfg.sh
+```
+- Run the dockercfg.sh to start the configuration
+```bash
+./jenkinscfg.sh
+```
+#### Our jenkins configuration is done now
