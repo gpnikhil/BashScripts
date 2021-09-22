@@ -22,8 +22,8 @@ echo -e  "\nJava Port is UP\n"
 
 netstat -tnlp | grep java
 
-echo -e "\nUse Port 8080, Your IP address and Jenkins Initial Admin Password is shown below, Use it to login and Reset the Jenkins Password\n"
+echo -e "\nUse Port 8080, Your IP address and Jenkins Initial Admin Password Path is shown below, Use it to login and Reset the Jenkins Password\n"
 
 hostname -I |awk '{print $1}'
-cat  /var/lib/jenkins/secrets/initialAdminPassword
+echo  /var/lib/jenkins/secrets/initialAdminPassword
 
